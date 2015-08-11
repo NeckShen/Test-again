@@ -21,3 +21,4 @@ dd = read.table(paste(Ifsys,"auto-mpg.txt",sep=""),sep="\t",header=T,stringsAsFa
 head(dd)
 dd[dd == "?"] = NA
 head(dd)
+dim(dd)
